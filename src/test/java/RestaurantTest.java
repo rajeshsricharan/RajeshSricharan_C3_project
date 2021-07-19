@@ -77,10 +77,10 @@ class RestaurantTest {
     @Test
     public void order_value_should_be_380_when_SweetCornSoup_and_Vegetable_lasagne_are_ordered() throws restaurantNotFoundException {
         //Arrange
-        List<String> orderedItemNames = Arrays.asList("Sweet corn soup", "Vegetable lasagne");
+        List<String> orderedItems = Arrays.asList("Sweet corn soup", "Vegetable lasagne");
 
         //Act
-        int totalOrderValue = restaurant.getOrderValue(orderedItemNames);
+        int totalOrderValue = restaurant.getOrderValue(orderedItems);
 
         //Assert
         assertEquals(totalOrderValue, 388);
