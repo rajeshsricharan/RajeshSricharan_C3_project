@@ -64,6 +64,7 @@ public class Restaurant {
         return name;
     }
 
+    //Adding ordervalue method
     public int getOrderValue(List<String> orderedItemNames){
         int totalOrderValue = 0;
         for (String orderedItemName : orderedItemNames) {
