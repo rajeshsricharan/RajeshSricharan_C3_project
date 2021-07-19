@@ -65,10 +65,10 @@ public class Restaurant {
     }
 
     //Adding ordervalue method
-    public int getOrderValue(List<String> orderedItemNames){
+    public int getOrderValue(List<String> orderedItems){
         int totalOrderValue = 0;
-        for (String orderedItemName : orderedItemNames) {
-            totalOrderValue += findItemByName(orderedItemName).getPrice();
+        for (String orderedItem : orderedItems) {
+            totalOrderValue += findItemByName(orderedItem).getPrice();
         }
         return totalOrderValue;
     }
