@@ -1,1 +1,1 @@
-REstaurant Finder C3 Project
+Restaurant Finder C3 Project
